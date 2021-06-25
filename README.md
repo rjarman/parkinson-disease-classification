@@ -21,7 +21,7 @@ This is an implementation of early identification of Parkinson's disease from ha
     ![Heatmap Wave Images(Train)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(train).png> 'Heatmap Wave Images(Train)')
     ![Heatmap Wave Images(Test)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(test).png> 'Heatmap Wave Images(Test)')
 
-- _Spiral_ Dataset **Inception V3**
+- _Spiral_ Dataset with **Inception V3**
 
   - Original
 
