@@ -2,3 +2,9 @@
 *.pdf
 .vscode
 notebooks/datasets
+.DS_Store
+app/node_modules/
+app/plugins/
+app/platforms/
+app/package-lock.json
+app/www

@@ -2,6 +2,8 @@
 
 This is an implementation of early identification of Parkinson's disease from hand-drawn images with `inception_v3` and `densenet121` as feature descriptors and various classification algorithms to separate them as healthy or affected.
 
+> To get the `.apk` click this [link](https://github.com/rjarman/parkinson-disease-classification/blob/master/Parkinson.apk).
+
 > Sample Images
 
 - _Wave_ Dataset with **DenseNet121**
