@@ -1,0 +1,88 @@
+@import '../variables.scss';
+
+.btn-menu {
+  position: fixed;
+  display: inline;
+  top: 30px;
+  left: 35px;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.btn-menu--deactivate {
+  display: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  position: fixed;
+  width: 70%;
+  min-width: 200px;
+  height: 100%;
+  transform: translateX(-640px);
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s,
+    opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  background-color: $backdrop-background-color;
+  font-family: $parkinson-heading;
+  z-index: 100;
+  left: 0;
+}
+
+.sidebar--active {
+  transform: translateX(0);
+}
+
+.sidebar__cover-img {
+  width: 100%;
+  height: 25%;
+  background-image: url(../../assets/images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar__btns {
+  align-self: center;
+  list-style: none;
+  padding: 0 35px;
+  width: 100%;
+}
+
+.sidebar__btn {
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: $common-font-size;
+  color: $button-color;
+  border: 1px solid $button-color-click;
+  margin: 0.3125rem 0;
+  padding: 0 0.875rem;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+}
+
+// .sidebar__btn--clicked {
+//   color: white;
+//   border-color: white;
+// }
+
+// .sidebar__btn:hover,
+// .sidebar__btn:active,
+// .sidebar__btn:focus {
+//   color: white;
+//   border-color: white;
+// }
+
+.sidebar__btn > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 40rem) {
+  .sidebar {
+    display: none !important;
+  }
+}
