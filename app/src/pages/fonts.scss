@@ -1,0 +1,92 @@
+// english fonts
+
+// parkinson-heading fonts
+@font-face {
+  font-family: 'parkinson-heading';
+  src: url('../assets/fonts/Merriweather-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Merriweather-Regular.woff') format('woff'),
+    url('../assets/fonts/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'parkinson-heading';
+  src: url('../assets/fonts/Merriweather-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Merriweather-Bold.woff') format('woff'),
+    url('../assets/fonts/Merriweather-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'parkinson-heading';
+  src: url('../assets/fonts/Merriweather-BoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Merriweather-BoldItalic.woff') format('woff'),
+    url('../assets/fonts/Merriweather-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+// parkinson-caption fonts
+@font-face {
+  font-family: 'parkinson-caption';
+  src: url('../assets/fonts/HelveticaNeueRegular.woff2') format('woff2'),
+    url('../assets/fonts/HelveticaNeueRegular.woff') format('woff'),
+    url('../assets/fonts/HelveticaNeueRegular.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'parkinson-caption';
+  src: url('../assets/fonts/HelveticaNeueThin.woff2') format('woff2'),
+    url('../assets/fonts/HelveticaNeueThin.woff') format('woff'),
+    url('../assets/fonts/HelveticaNeueThin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'parkinson-caption';
+  src: url('../assets/fonts/HelveticaNeueLight.woff2') format('woff2'),
+    url('../assets/fonts/HelveticaNeueLight.woff') format('woff'),
+    url('../assets/fonts/HelveticaNeueLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+// parkinson-article fonts
+@font-face {
+  font-family: 'parkinson-article';
+  src: url('../assets/fonts/Charter-Italic.woff2') format('woff2'),
+    url('../assets/fonts/Charter-Italic.woff') format('woff'),
+    url('../assets/fonts/Charter-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'parkinson-article';
+  src: url('../assets/fonts/Charter-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Charter-Bold.woff') format('woff'),
+    url('../assets/fonts/Charter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'parkinson-article';
+  src: url('../assets/fonts/Charter-BoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Charter-BoldItalic.woff') format('woff'),
+    url('../assets/fonts/Charter-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'parkinson-article';
+  src: url('../assets/fonts/Charter.woff2') format('woff2'),
+    url('../assets/fonts/Charter.woff') format('woff'),
+    url('../assets/fonts/Charter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,34 @@
+$parkinson-heading: 'parkinson-heading', 'DejaVu Sans', sans;
+$parkinson-caption: 'parkinson-caption', 'DejaVu Sans', serif;
+$parkinson-article: 'parkinson-article', 'DejaVu Sans', sans;
+
+$parkinson-heading-bn: 'parkinson-heading-bn', 'DejaVu Sans', sans;
+$parkinson-caption-bn: 'parkinson-caption-bn', 'DejaVu Sans', serif;
+$parkinson-article-bn: 'parkinson-article-bn', 'DejaVu Sans', sans;
+
+$icons-color: #626262;
+$icons-color-tap: #488454;
+$section-separator-color: #e5e5e5;
+$direction-btn-background: whitesmoke;
+$backdrop-color: rgba(0, 0, 0, 0.5);
+$backdrop-background-color: rgb(255, 255, 255, 0.5);
+$button-color: #0000008a;
+$button-color-click: #000000d6;
+$popover-background-color: white;
+$about-description: #737373;
+$about-social__heading: #b0b3b5;
+$container-tab-bg-color: white;
+$display-meter-color: white;
+$fab-icon-color: white;
+$info-window-bg-color: white;
+$chat-send-bg-color: #4895ef;
+$chat-send-text-color: white;
+$reply-dot-color: #303131;
+$reply-tag-dot-color: #cecece;
+$reply-tag-color: cornflowerblue;
+
+$common-font-size: 0.9375rem;
+
+@mixin btn-shadow-fn($color) {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, $color);
+}

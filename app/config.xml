@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.heaplinker.parkinson" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Parkinson</name>
+    <description>
+        This is an implementation(for android as .apk) of early identification of Parkinson's disease from hand-drawn images with inception_v3 and densenet121 as feature descriptors and various classification algorithms to separate them as healthy or affected.
+    </description>
+    <author email="armanrafsunjany@gmail.com" href="http://heaplinker.com">
+        Rafsun Jany Arman
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="src/assets/icons/mipmap-hdpi/parkinson_round.png" density="hdpi" />
+        <icon src="src/assets/icons/mipmap-mdpi/parkinson_round.png" density="mdpi" />
+        <icon src="src/assets/icons/mipmap-xhdpi/parkinson_round.png" density="xhdpi" />
+        <icon src="src/assets/icons/mipmap-xxhdpi/parkinson_round.png" density="xxhdpi" />
+        <icon src="src/assets/icons/mipmap-xxxhdpi/parkinson_round.png" density="xxxhdpi" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
