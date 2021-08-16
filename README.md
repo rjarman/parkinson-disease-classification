@@ -10,8 +10,9 @@ This is an implementation of early identification of Parkinson's disease from ha
 
   - Original
 
-    ![Original Wave Images(Train)](<notebooks/images/densenet121_wave/sample_of_original_img(train).png> 'Original Wave Images(Train)')
-    ![Original Wave Images(Test)](<notebooks/images/densenet121_wave/sample_of_original_img(test).png> 'Original Wave Images(Test)')
+    | ![(a) and (b) represents the train set sample, (c) and (d) are the test set sample of wave dataset](<notebooks/images/sample_train_test_wave.png> '(a) and (b) represents the train set sample, (c) and (d) are the test set sample of wave dataset') | 
+    :-:
+    |Fig: (a) and (b) represents the train set sample, (c) and (d) are the test set sample of wave dataset|
 
   - Heatmap
 
@@ -20,15 +21,20 @@ This is an implementation of early identification of Parkinson's disease from ha
 
   - Grad-Cam
 
-    ![Heatmap Wave Images(Train)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(train).png> 'Heatmap Wave Images(Train)')
-    ![Heatmap Wave Images(Test)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(test).png> 'Heatmap Wave Images(Test)')
+    | ![(b) and (d) are the grad-cam image of (a) and (c) respectively](<notebooks/images/densenet121_wave/evaluation/grad_cam.png> '(b) and (d) are the grad-cam image of (a) and (c) respectively') | 
+    :-:
+    |Fig: (b) and (d) are the grad-cam image of (a) and (c) respectively|
+    
+    <!-- ![Heatmap Wave Images(Train)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(train).png> 'Heatmap Wave Images(Train)')
+    ![Heatmap Wave Images(Test)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(test).png> 'Heatmap Wave Images(Test)') -->
 
 - _Spiral_ Dataset with **Inception V3**
 
   - Original
 
-    ![Original Wave Images(Train)](<notebooks/images/inception_v3_spiral/sample_of_original_img(train).png> 'Original Spiral Images(Train)')
-    ![Original Wave Images(Test)](<notebooks/images/inception_v3_spiral/sample_of_original_img(test).png> 'Original Spiral Images(Test)')
+    | ![(a) and (b) represents the train set sample, (c) and (d) are the test set sample of spiral dataset](<notebooks/images/sample_train_test_spiral.png> '(a) and (b) represents the train set sample, (c) and (d) are the test set sample of spiral dataset') | 
+    :-:
+    |Fig: (a) and (b) represents the train set sample, (c) and (d) are the test set sample of spiral dataset|
 
   - Heatmap
 
@@ -37,8 +43,12 @@ This is an implementation of early identification of Parkinson's disease from ha
 
   - Grad-Cam
 
-    ![Heatmap Wave Images(Train)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Train)')
-    ![Heatmap Wave Images(Test)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Test)')
+    | ![(b) and (d) are the grad-cam image of (a) and (c) respectively](<notebooks/images/inception_v3_spiral/evaluation/grad_cam.png> '(b) and (d) are the grad-cam image of (a) and (c) respectively') | 
+    :-:
+    |Fig: (b) and (d) are the grad-cam image of (a) and (c) respectively|
+
+    <!-- ![Heatmap Wave Images(Train)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Train)')
+    ![Heatmap Wave Images(Test)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Test)') -->
 
 > Installation
 
