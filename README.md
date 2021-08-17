@@ -28,6 +28,14 @@ This is an implementation of early identification of Parkinson's disease from ha
     <!-- ![Heatmap Wave Images(Train)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(train).png> 'Heatmap Wave Images(Train)')
     ![Heatmap Wave Images(Test)](<notebooks/images/densenet121_wave/sample_of_gradcam_img(test).png> 'Heatmap Wave Images(Test)') -->
 
+  - Evaluation
+
+    ![Confusion Matrix](<notebooks/images/densenet121_wave/evaluation/confusion_matrix.png> 'Confusion Matrix')
+    
+    ![Classification Report](<notebooks/images/densenet121_wave/evaluation/classification_report.png> 'Classification Report') 
+
+    ![Class Prediction Error](<notebooks/images/densenet121_wave/evaluation/class_prediction_error.png> 'Class Prediction Error') 
+
 - _Spiral_ Dataset with **Inception V3**
 
   - Original
@@ -49,6 +57,14 @@ This is an implementation of early identification of Parkinson's disease from ha
 
     <!-- ![Heatmap Wave Images(Train)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Train)')
     ![Heatmap Wave Images(Test)](<notebooks/images/inception_v3_spiral/sample_of_gradcam_img(test).png> 'Heatmap Spiral Images(Test)') -->
+
+  - Evaluation
+
+    ![Confusion Matrix](<notebooks/images/inception_v3_spiral/evaluation/confusion_matrix.png> 'Confusion Matrix')
+    
+    ![Classification Report](<notebooks/images/inception_v3_spiral/evaluation/classification_report.png> 'Classification Report') 
+
+    ![Class Prediction Error](<notebooks/images/inception_v3_spiral/evaluation/class_prediction_error.png> 'Class Prediction Error') 
 
 > Installation
 
