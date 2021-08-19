@@ -67,13 +67,14 @@ class ContextManager:
             data, batch_size=batch_size, shuffle=True, num_workers=0)
         return data_loader
 
-    def __feature_descriptor_gradcam(self, data_loader):
+    def __feature_descriptor_gradcam(self, data_loader, img_type):
         print('Getting Features...')
         for index, data in enumerate(data_loader, 0):
             input_images, labels = data
             input_images, labels = input_images.to(
                 self.device), labels.to(self.device)
-            features = self.densenet121(input_images)
+            features = self.densenet121(
+                input_images) if img_type == 'wave' else self.inceptionV3(input_images)
         print(f'Features shape: {features.shape}\n')
 
         print('Computing gradients...')
@@ -81,12 +82,14 @@ class ContextManager:
         print('\n\n')
 
         # computing gradients
-        gradients = self.densenet121.get_activations_gradient()
+        gradients = self.densenet121.get_activations_gradient(
+        ) if img_type == 'wave' else self.inceptionV3.get_activations_gradient()
         print(f'Gradients shape: {gradients.shape}\n\n')
 
         print('Computing activations...')
         # get the activations of the last convolutional layer
-        activations = self.densenet121.get_activations(input_images).detach()
+        activations = self.densenet121.get_activations(input_images).detach(
+        ) if img_type == 'wave' else self.inceptionV3.get_activations(input_images).detach()
         print(f'Activations shape: {activations.shape}\n\n')
 
         return (gradients, activations, features, labels)
@@ -209,7 +212,7 @@ class ContextManager:
         )
         _data = self.__load_data('data/.tmp', 1)
         _gradients, _activations, _features, _labels = self.__feature_descriptor_gradcam(
-            _data)
+            _data, img_type)
         self.__gen_heatmap_gridcam(_data, _gradients, _activations)
         _base_64 = self.__base64_convert()
         _features = _features[0].detach().numpy().tolist()
