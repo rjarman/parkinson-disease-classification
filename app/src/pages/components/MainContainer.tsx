@@ -3,6 +3,7 @@ import { SocketEvents } from '../libs/SocketEvents';
 import { ParsedData } from '../libs/types';
 import './MainContainer.scss';
 import * as download from '../../assets/images/download.svg';
+import * as add from '../../assets/images/add.svg';
 import { PdfService } from '../libs/PdfService';
 
 export class MainContainer extends React.Component<
@@ -31,6 +32,17 @@ export class MainContainer extends React.Component<
     this.pdfService.generatePDF({
       result: this.state.result,
       images: this.state.images,
+    });
+  }
+
+  reset() {
+    (document.getElementById('img-input') as HTMLInputElement).value = '';
+    var ele: any = document.getElementsByName('img-type');
+    for (var i = 0; i < ele.length; i++) ele[i].checked = false;
+    this.setState({
+      parsedData: [],
+      result: '',
+      images: [],
     });
   }
 
@@ -142,16 +154,19 @@ export class MainContainer extends React.Component<
               if (data.type === 'ImageFile')
                 return (
                   <div className="float-btn active">
-                    <img src={download.default} alt="download_logo" />
+                    <img src={add.default} alt="add_logo" />
+                    {/* <img src={download.default} alt="download_logo" /> */}
                   </div>
                 );
               else
                 return (
                   <div
                     className="float-btn"
-                    onClick={this.downloadPDF.bind(this)}
+                    // onClick={this.downloadPDF.bind(this)}
+                    onClick={this.reset.bind(this)}
                   >
-                    <img src={download.default} alt="download_logo" />
+                    <img src={add.default} alt="add_logo" />
+                    {/* <img src={download.default} alt="download_logo" /> */}
                   </div>
                 );
             })
