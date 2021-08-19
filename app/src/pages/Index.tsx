@@ -5,6 +5,7 @@ import { Backdrop } from './components/Backdrop';
 import { MainContainer } from './components/MainContainer';
 import { Sidebar } from './components/Sidebar';
 import { IndexEvents } from './libs/IndexEvents';
+import { SocketEvents } from './libs/SocketEvents';
 import './styles.scss';
 
 class Index extends React.Component {

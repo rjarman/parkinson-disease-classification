@@ -12,4 +12,9 @@ export const links = {
     facebook: 'https://facebook.com/rafsunjany.arman.1',
     twitter: 'https://twitter.com/_rjarman',
   },
+  socket: {
+    port: 8080,
+    address: '127.0.0.1',
+    soc: 'ws://127.0.0.1:8080'
+  },
 };

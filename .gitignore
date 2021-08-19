@@ -8,4 +8,4 @@ app/plugins/
 app/platforms/
 app/package-lock.json
 app/www
-data
+__pycache__
