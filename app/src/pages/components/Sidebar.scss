@@ -3,14 +3,53 @@
 .btn-menu {
   position: fixed;
   display: inline;
-  top: 30px;
-  left: 35px;
   cursor: pointer;
   z-index: 30;
+  width: 100%;
+  height: 60px;
+}
+
+.header-bg {
+  height: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 152, 155, 1) 0.1%,
+    rgba(0, 94, 120, 1) 94.2%
+  );
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.header-bg--active {
+  opacity: 100%;
 }
 
 .btn-menu--deactivate {
   display: none;
+}
+
+.btn-menu > span {
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+  width: fit-content;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#refreshBtn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .sidebar {
