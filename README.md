@@ -4,6 +4,18 @@ This is an implementation of early identification of Parkinson's disease from ha
 
 > To get the `.apk` click this [link](https://github.com/rjarman/parkinson-disease-classification/blob/master/Parkinson.apk).
 
+> Application UI
+- Front
+  ![Initial front side of the app](app/sample_ss/front.png 'Initial front side of the app')
+- Spiral __healthy__ test
+  ![Spiral healthy test](app/sample_ss/spiral_healthy.png 'Spiral healthy test')
+- Spiral __parkinson__ test
+  ![Spiral parkinson test](app/sample_ss/spiral_parkinson.png 'Spiral parkinson test')
+- Wave __healthy__ test
+  ![Wave healthy test](app/sample_ss/wave_healthy.png 'Wave healthy test')
+- Wave __parkinson__ test
+  ![Wave parkinson test](app/sample_ss/wave_parkinson.png 'Wave parkinson test')
+
 > Sample Images
 
 - _Wave_ Dataset with **DenseNet121**
