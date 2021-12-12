@@ -231,7 +231,7 @@ class ContextManager:
                     'status': True,
                     'type': 'status',
                     'value': {
-                        'tag': 'Image Classification',
+                        'tag': 'Image classification',
                         'value': 'True'
                     }
                 },

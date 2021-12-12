@@ -48,7 +48,7 @@ class WebSocket:
                             'status': True,
                             'type': 'status',
                             'value': {
-                                'tag': 'Server connection',
+                                'tag': 'System ready',
                                 'value': 'True'
                             }
                         },
@@ -96,7 +96,7 @@ class WebSocket:
                             'status': True,
                             'type': 'status',
                             'value': {
-                                'tag': 'Base64 to image conversion',
+                                'tag': 'Image processing completion',
                                 'value': 'True'
                             }
                         },
