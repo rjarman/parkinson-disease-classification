@@ -53,6 +53,10 @@ This is an implementation of early identification of Parkinson's disease from ha
 
     ![Class Prediction Error](<notebooks/images/densenet121_wave/evaluation/class_prediction_error.png> 'Class Prediction Error') 
 
+    ![ROC-AUC](<notebooks/images/densenet121_wave/evaluation/roc_auc.png> 'ROC-AUC') 
+
+    ![Precision-Recall curve](<notebooks/images/densenet121_wave/evaluation/precision_recall_curve.png> 'Precision-Recall curve') 
+
 - _Spiral_ Dataset with **Inception V3**
 
   - Original
@@ -82,6 +86,10 @@ This is an implementation of early identification of Parkinson's disease from ha
     ![Classification Report](<notebooks/images/inception_v3_spiral/evaluation/classification_report.png> 'Classification Report') 
 
     ![Class Prediction Error](<notebooks/images/inception_v3_spiral/evaluation/class_prediction_error.png> 'Class Prediction Error') 
+
+    ![ROC-AUC](<notebooks/images/inception_v3_spiral/evaluation/roc_auc.png> 'ROC-AUC') 
+
+    ![Precision-Recall curve](<notebooks/images/inception_v3_spiral/evaluation/precision_recall_curve.png> 'Precision-Recall curve') 
 
 > Installation
 
